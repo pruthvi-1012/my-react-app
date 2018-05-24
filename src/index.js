@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Square from './square';
+import Board from './board';
 
 class MyApp extends React.Component {
 
@@ -11,12 +11,6 @@ class MyApp extends React.Component {
         this.state = {
             value: 'hello',
         };
-    }
-
-    renderSubComponent(i) {
-        return (
-            <MyAppSubComponent value={i} />
-        );
     }
 
     render() {
