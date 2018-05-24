@@ -1,16 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-
-class MyAppSubComponent extends React.Component {
-  render() {
-    return (
-        <div> {this.props.value}</div>
-    );
-  }
-}
-
+import Square from './square';
 
 class MyApp extends React.Component {
 
