@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import Square from './square';
 
@@ -10,7 +9,7 @@ class Board extends React.Component {
 
     render() {
         return( 
-            <div className="board-row"> {this.renderSquare(i)} </div> 
+            <div className="board-row"> {this.renderSquare('i')} </div> 
         );
     }
 }

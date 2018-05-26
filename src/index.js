@@ -15,7 +15,9 @@ class MyApp extends React.Component {
 
     render() {
         return (
-           <div> {this.renderSubComponent('hi')} </div>
+           <div> 
+               <Board />
+           </div>
         );
     }
 }
